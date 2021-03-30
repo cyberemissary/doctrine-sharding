@@ -1,0 +1,32 @@
+{
+    "name": "cyber/doctrine-sharding",
+    "description": "Adds sharding capabilities to doctrine",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CyberEmissary",
+            "email": "25044236+cyberemissary@users.noreply.github.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cyberemissary/doctrine-sharding/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyber\\DoctrineSharding\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Cyber\\DoctrineSharding\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+    }
+}
